@@ -96,9 +96,13 @@ Exemplo: $ git commit
 ## COMANDOS PARA O GIHUB ##
 
 $ git push https://github.com/Layobrum/Curso-Git.git HEAD # faz o upload do repositório local para o github (push de empurrar os arquivos para lá)
-Exemplo: $ git push [link do repositorio] (é possível colocar alias, apelidos, nos links para não ter q ficar copiando eles o tempo todo) [nome do branch] (o nome do branch pode ser main, master ou HEAD para indicar os branches principais)
+Exemplo: $ git push [link do repositorio] (é possível colocar alias, apelidos, nos links para não ter q ficar copiando eles o tempo todo) [nome do branch] (o nome do branch pode ser main, master ou HEAD - HEAD é o automático para o padrão, que no meu caso é o master - para indicar os branches principais)
 
 $ git remote add origin https://github.com/Layobrum/Curso-Git.git # adiciona o apelido 'origin' para o link do repositório colocado após, dessa maneira não será necessário ficar colando o link o tempo todo para commitar
 Exemplo: $ git remote add [nome do apelido] (o padrão é 'origin') [link do repositorio]
 
 $ git remote -v # mostra os aliases (apelidos) criados
+
+$ git clone projeto2 Curso-git2 # clona o repositório "projeto2" para o meu computador (host local) dando o apelido 'Curso-git2' para ele
+Exemplo: $ git clone [nome do repositório] [nome do apelido] (onde o apelido será o nome que será criado a pasta no seu computador)
+# Ao clonar um repositório, ele já chega com o apelido 'origin' para facilitar as coisas

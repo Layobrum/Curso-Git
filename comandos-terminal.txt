@@ -37,3 +37,5 @@ Exemplo: $ mv [nome do arquivo] [local do arquivo] [novo nome do arquivo] # .. c
 $ dir -a # o -a é uma flag para revelar arquivos ocultos também, como a pasta .git
 
 $ cd ../projeto1 # sai do diretorio atual e entra em outro direto
+
+$ rm -rf nome-do-projeto # exclue uma pasta de vez, independente de ter arquivos dentro dela ou não
