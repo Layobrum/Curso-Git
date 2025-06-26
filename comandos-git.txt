@@ -91,4 +91,9 @@ $ git merge mercado-pago # fará o merge (juntará) o branch mercado-pago no bra
 Exemplo: (no branch de destino) git merge [nome do branch]
 
 Para resolver conflitos, basta escolher quais e como agir com eles, assim como escolher qual manter e então commitar normalmente. Nesse caso não precisa adicionar uma mensagem, pois a padrão já é boa o suficiente.
-Exemplo: $git commit
+Exemplo: $ git commit
+
+## COMANDOS PARA O GIHUB ##
+
+$ git push https://github.com/Layobrum/Curso-Git.git HEAD # faz o upload do repositório local para o github (push de empurrar os arquivos para lá)
+Exemplo: $ git push [link do repositorio] [nome do branch] (o nome do branch pode ser main, master ou HEAD para indicar os branches principais)
